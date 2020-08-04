@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MosheComponent } from './components/moshe/moshe.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MosheComponent
   ],
   imports: [
     BrowserModule,
